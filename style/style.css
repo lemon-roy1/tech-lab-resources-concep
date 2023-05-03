@@ -1,0 +1,112 @@
+/* common style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.orange-text{
+    color: orange;
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    background: linear-gradient(45deg, orangered , orange);
+    color:#fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background: none;
+    border: 1px solid orange;
+    color: orange;
+    padding: 9px 19px;
+    cursor: pointer;
+
+}
+body{
+    font-family: "poppins";
+}
+#header{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(242, 218, 218);
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+.header-tital{
+    width: 50%;
+}
+.header-images{
+    width: 50%;
+}
+.header-images img{
+    width: 100%;
+}
+/* services-section starts */
+#services-section{
+    width: 100%;
+    margin: 50px auto;
+}
+.service-section-boxes{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+.service-box{
+    width: 30%;
+    background-color: rgb(246, 212, 212);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.service-icon{
+    width: 30%;
+}
+.service-icon img{
+    width: 100%;
+    padding: 10px;
+}
+.service-text{
+    width: 70%;
+}
+
+/* services-section starts */
+
+
+/* PRODUCT SE{CTION START */
+.product-sec{
+    width: 100%;
+    margin: 30px 0px;
+}
+.product-card{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.laptop-sec{
+    width: 90%;
+    margin: 0px auto;
+}
+.card{
+    width: 30%;
+    text-align: center;
+    box-shadow: 5px 5px 20px rgb(85, 82, 82);
+    padding: 20px 5px;
+    border-radius: 5px;
+}
+
+.card-image img{
+    width: 100%;
+}
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+/* PRODUCT SECTION ENDS */
